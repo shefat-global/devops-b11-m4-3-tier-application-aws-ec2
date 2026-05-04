@@ -1,0 +1,86 @@
+module.exports = {
+
+"[project]/.next-internal/server/app/favicon.ico/route/actions.js [app-rsc] (server actions loader, ecmascript)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+}}),
+"[externals]/next/dist/compiled/next-server/app-route.runtime.dev.js [external] (next/dist/compiled/next-server/app-route.runtime.dev.js, cjs)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+const mod = __turbopack_context__.x("next/dist/compiled/next-server/app-route.runtime.dev.js", () => require("next/dist/compiled/next-server/app-route.runtime.dev.js"));
+
+module.exports = mod;
+}}),
+"[externals]/next/dist/compiled/@opentelemetry/api [external] (next/dist/compiled/@opentelemetry/api, cjs)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+const mod = __turbopack_context__.x("next/dist/compiled/@opentelemetry/api", () => require("next/dist/compiled/@opentelemetry/api"));
+
+module.exports = mod;
+}}),
+"[externals]/next/dist/compiled/next-server/app-page.runtime.dev.js [external] (next/dist/compiled/next-server/app-page.runtime.dev.js, cjs)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+const mod = __turbopack_context__.x("next/dist/compiled/next-server/app-page.runtime.dev.js", () => require("next/dist/compiled/next-server/app-page.runtime.dev.js"));
+
+module.exports = mod;
+}}),
+"[externals]/next/dist/server/app-render/work-unit-async-storage.external.js [external] (next/dist/server/app-render/work-unit-async-storage.external.js, cjs)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+const mod = __turbopack_context__.x("next/dist/server/app-render/work-unit-async-storage.external.js", () => require("next/dist/server/app-render/work-unit-async-storage.external.js"));
+
+module.exports = mod;
+}}),
+"[externals]/next/dist/server/app-render/work-async-storage.external.js [external] (next/dist/server/app-render/work-async-storage.external.js, cjs)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+const mod = __turbopack_context__.x("next/dist/server/app-render/work-async-storage.external.js", () => require("next/dist/server/app-render/work-async-storage.external.js"));
+
+module.exports = mod;
+}}),
+"[externals]/next/dist/server/app-render/after-task-async-storage.external.js [external] (next/dist/server/app-render/after-task-async-storage.external.js, cjs)": (function(__turbopack_context__) {
+
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
+{
+const mod = __turbopack_context__.x("next/dist/server/app-render/after-task-async-storage.external.js", () => require("next/dist/server/app-render/after-task-async-storage.external.js"));
+
+module.exports = mod;
+}}),
+"[project]/app/favicon--route-entry.js [app-rsc] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "GET": (()=>GET),
+    "dynamic": (()=>dynamic)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/server.js [app-rsc] (ecmascript)");
+;
+const contentType = "image/x-icon";
+const cacheControl = "public, max-age=0, must-revalidate";
+const buffer = Buffer.from("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", 'base64');
+if ("TURBOPACK compile-time falsy", 0) {
+    "TURBOPACK unreachable";
+}
+function GET() {
+    return new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["NextResponse"](buffer, {
+        headers: {
+            'Content-Type': contentType,
+            'Cache-Control': cacheControl
+        }
+    });
+}
+const dynamic = 'force-static';
+}}),
+
+};
+
+//# sourceMappingURL=%5Broot%20of%20the%20server%5D__ddb12edd._.js.map
