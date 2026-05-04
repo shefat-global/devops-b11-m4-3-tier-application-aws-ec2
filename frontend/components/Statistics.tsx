@@ -1,5 +1,4 @@
 "use client";
-import { statsData } from "@/constants";
 import CountUp from "react-countup";
 
 interface CounterItem {

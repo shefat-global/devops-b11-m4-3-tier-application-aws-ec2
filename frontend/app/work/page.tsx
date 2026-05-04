@@ -22,7 +22,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Container from "@/components/Container";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 
 interface WorkDescription {
   value: string;

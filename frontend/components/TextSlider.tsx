@@ -16,7 +16,7 @@ const TextSlider = () => {
     }, 2000); // Interval for each slide (2 seconds)
 
     return () => clearInterval(interval); // Cleanup interval on unmount
-  }, []);
+  }, [textItems.length]);
 
   return (
     <div className="relative overflow-hidden h-[30px] w-full flex items-center">

@@ -1,7 +1,6 @@
 "use client";
 import Container from "@/components/Container";
 import Title from "@/components/Title";
-import { servicesData } from "@/constants";
 import { motion } from "framer-motion";
 import { ArrowUp } from "lucide-react";
 import Link from "next/link";
