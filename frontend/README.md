@@ -75,10 +75,6 @@ To configure the contact form, follow these steps:
 - **React-CountUp**: For animated number counters
 - **Getform.io**: For handling contact form submissions
 
-## Live Demo
-
-Check out the live portfolio: https://portfolio-new-seven-opal.vercel.app/
-
 ## Learn More
 
 To learn more about the technologies used in this project:
