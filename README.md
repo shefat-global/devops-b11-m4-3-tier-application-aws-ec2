@@ -1,9 +1,6 @@
 Assignment: 3-Tier Application on AWS EC2
 Module 4 - DevOps
 
-Git Repository:
-https://github.com/shefat-global/devops-b11-m4-3-tier-application-aws-ec2
-
 Screenshots / Proof of Work:
 The screenshots are added inside my GitHub repository. They show proof of the VPC setup, EC2 instances, route tables, security groups, running services, and application access result.
 
