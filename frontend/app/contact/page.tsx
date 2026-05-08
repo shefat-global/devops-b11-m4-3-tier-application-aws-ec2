@@ -1,6 +1,7 @@
 import ContactForm from "@/components/ContactForm";
 import Container from "@/components/Container";
 import { Mail, MapPinCheck, Phone } from "lucide-react";
+import { env } from "@/lib/env";
 
 /* Interface (only what you use) */
 interface SiteSettings {
@@ -11,7 +12,7 @@ interface SiteSettings {
 
 /* fetch data function */
 const getSiteSettings = async (): Promise<SiteSettings> => {
-  const res = await fetch("http://127.0.0.1:8000/api/v2/site-settings", {
+   const res = await fetch(`${env.backendApiUrl}/api/v2/site-settings`, {
     next: { revalidate: 2592000 }, // 30 days
   });
 

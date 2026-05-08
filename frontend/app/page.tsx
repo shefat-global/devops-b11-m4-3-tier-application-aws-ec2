@@ -6,6 +6,7 @@ import Statistics from "@/components/Statistics";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
 import Link from "next/link";
+import { env } from "@/lib/env";
 
 interface CounterItem {
   id: number;
@@ -39,7 +40,7 @@ interface SiteSettings {
 }
 
 const getHomePageData = async (): Promise<PageData> => {
-  const res = await fetch("http://127.0.0.1:8000/api/v2/pages/3/", {
+    const res = await fetch(`${env.backendApiUrl}/api/v2/pages/3/`, {
     next: { revalidate: 2592000 },
   });
 
@@ -59,7 +60,7 @@ const getHomePageData = async (): Promise<PageData> => {
 };
 
 const getSiteSettings = async (): Promise<SiteSettings> => {
-  const res = await fetch("http://127.0.0.1:8000/api/v2/site-settings", {
+  const res = await fetch(`${env.backendApiUrl}/api/v2/site-settings`, {
     next: { revalidate: 2592000 },
   });
 
@@ -99,7 +100,7 @@ const Home = async () => {
           {siteSettings.cv_url && (
             <Button className="bg-transparent rounded-full border border-lightSky/50 text-lightSky hover:bg-hoverColor hover:text-black">
               <Link
-                href={`http://127.0.0.1:8000${siteSettings.cv_url}`}
+                 href={`${env.backendApiUrl}${siteSettings.cv_url}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1"

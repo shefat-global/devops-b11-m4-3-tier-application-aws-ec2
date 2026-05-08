@@ -61,7 +61,7 @@ export default function ProjectSlider() {
 
   const getImageUrl = (url?:string) => {
     if(!url) return "images/hero.png";
-    return `http://127.0.0.1:8000${url}`;
+    return `${process.env.NEXT_PUBLIC_BACKEND_API_URL}${url}`;
   }
 
 
@@ -72,7 +72,7 @@ export default function ProjectSlider() {
   useEffect(() => {
     const fetchWorkData = async () => {
       try {
-        const response = await fetch("http://127.0.0.1:8000/api/v2/pages/6/");
+        const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_API_URL}/api/v2/pages/6/`);
 
         if (!response.ok) {
           throw new Error(`Failed to fetch work data: ${response.status}`);

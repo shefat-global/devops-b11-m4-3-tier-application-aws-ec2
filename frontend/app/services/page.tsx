@@ -31,7 +31,7 @@ const ServicePage = () => {
     // fetch service data on the client side when the component mounts 
     const fetchServiceData = async () => {
       try{
-        const response = await fetch("http://127.0.0.1:8000/api/v2/pages/4/");
+        const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_API_URL}/api/v2/pages/4/`);
         if(!response.ok){
           throw new Error(`Failed to fetch service data: ${response.status}`);
         }
